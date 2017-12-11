@@ -1,0 +1,134 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 7214741426,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "As a user I should able to search \u0027Citizens Advice\u0027 from google",
+        "description": "        and verify menu header item list\n        and search functionality from homepage\n        So that I can explore different functionality the Citizens Advice website",
+        "id": "search-google-for-citizens-advice-and-verifying-the-search-functionality-on-the-citizens-advice-website.;as-a-user-i-should-able-to-search-\u0027citizens-advice\u0027-from-google",
+        "after": [
+          {
+            "result": {
+              "duration": 1907203496,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1779047166,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am Google search page",
+            "match": {
+              "location": "MyStepdefs.iAmGoogleSearchPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3071756271,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I search for \u0027Citizens Advice\u0027",
+            "match": {
+              "location": "MyStepdefs.iSearchForCitizensAdvice()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2130598261,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I navigate to Citizens Advice homepage",
+            "match": {
+              "location": "MyStepdefs.iNavigateToCitizensAdviceHomepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 130863534,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should able to see a list of items on main navigation header on the homepage",
+            "match": {
+              "location": "MyStepdefs.iShouldAbleToSeeAListOfItemsOnMainNavigationHeaderOnTheHomepage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1466922229,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I search for \"Pension\" related help on the homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Pension",
+                  "offset": 14
+                }
+              ],
+              "location": "MyStepdefs.iSearchForRelatedHelpOnTheHomepage(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1188419030,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I should able to verify \"State Pension\" link in search result",
+            "match": {
+              "arguments": [
+                {
+                  "val": "State Pension",
+                  "offset": 25
+                }
+              ],
+              "location": "MyStepdefs.iShouldAbleToVerifyLinkInSearchResult(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Search google for Citizens Advice and verifying the search functionality on the Citizens Advice website.",
+    "description": "",
+    "id": "search-google-for-citizens-advice-and-verifying-the-search-functionality-on-the-citizens-advice-website.",
+    "keyword": "Feature",
+    "uri": "src/test/Resources/CitizensAdvice/search.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@search"
+      }
+    ]
+  }
+]
